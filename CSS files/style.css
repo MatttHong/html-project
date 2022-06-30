@@ -1,0 +1,38 @@
+
+.enterinfo form{
+    width: 380px;
+    max-width: 100%;
+  position: relative;
+  }
+  .enterinfo form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 10px;
+    border: 2px solid rgb(0, 136, 169);
+    outline: none;
+    border-radius: 30px;
+  }
+  .enterinfo form input:last-child{
+  position:absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px; 
+  background-color: rgba(0, 136, 169, 1);
+  color: #edf0f1;
+  top: 6px;
+  right: 6px; 
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  
+  /* font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none; */
+  }
+  
+  .enterinfo form input:last-child:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+  }
